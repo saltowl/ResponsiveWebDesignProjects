@@ -3,9 +3,10 @@ html {
 }
 
 body {
-  background: linear-gradient(90deg, rgb(255, 230, 147), rgb(161, 245, 182), rgb(126, 252, 235));
+  background: linear-gradient(90deg, rgb(230, 214, 162), rgb(168, 214, 179), rgb(147, 211, 203));
   margin: 0px;
   height: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -14,7 +15,6 @@ main {
   margin: auto;
   margin-top: 0.5vh;
   margin-bottom: 0.5vh;
-  border: 1px solid rgb(103, 122, 51);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
@@ -48,4 +48,13 @@ main {
 input[name="submit"] {
   margin: auto;
   display: block;
+  background-color: beige;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.23);
+  font-weight: 600;
+  margin-bottom: 0.5vh;
+}
+
+main, input[name="submit"] {
+    border-radius: 3px;
+  border: 1px solid rgb(103, 122, 51);
 }

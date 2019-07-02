@@ -1,14 +1,14 @@
-html,
-body {
+html {
   height: 100%;
 }
 
 body {
   --row-gap: 2vh;
-  display: inline;
-  background: linear-gradient(30deg, #ccffff, #ffcccc) no-repeat;
+  background: linear-gradient(90deg, #ccffff, #ffcccc);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  height: auto;
+  margin: 0px;
 }
 
 main {

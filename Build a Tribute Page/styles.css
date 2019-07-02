@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(226, 226, 226);
+}
+
+#title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: rgb(87, 87, 87);
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1vh;
+}
+
+#img-div {
+  width: 60vw;
+  margin: auto;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+#img-caption {
+  text-align: right;
+}
+
+#tribute-info {
+  padding: 1vw;
+}
+
+#tribute-info > p,
+h3 {
+  margin: auto;
+  width: 60vw;
+  padding: 1vw;
+  text-align: justify;
+}
+
+h3 {
+  font-weight: 600;
+  text-align: right;
+}
+
+#tribute-link {
+  color: rgb(87, 87, 87);
+}
+
+#tribute-link:hover {
+  color: black;
+  animation-name: bigger-size;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bigger-size {
+  100% {
+    font-size: larger;
+  }
+}

@@ -14,7 +14,7 @@
         <form id="survey-form">
           <div>
             <label for="name" id="name-label" class="labels">* Name: </label>
-            <input type="text" id="name" placeholder="Enter your name" name="name" class="ans" />
+            <input type="text" id="name" placeholder="Enter your name" name="name" class="ans" required />
           </div>
 
           <div>
@@ -25,6 +25,7 @@
               placeholder="Enter your email"
               name="email"
               class="ans"
+              required
             />
           </div>
 
@@ -38,6 +39,7 @@
               min="4"
               max="120"
               class="ans"
+              required
             />
           </div>
 
@@ -57,7 +59,7 @@
           </div>
 
           <div>
-            <p class="labels">* Gender:</p>
+            <p class="labels">Gender:</p>
             <div class="ans">
               <div>
                 <input id="male" type="radio" name="gender" value="male" />
@@ -159,9 +161,11 @@
             ></textarea>
           </div>
 
-          <input type="submit" name="submit" value="Submit" />
+          <input id="submit" type="submit" name="submit" value="Submit" />
         </form>
       </section>
     </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>

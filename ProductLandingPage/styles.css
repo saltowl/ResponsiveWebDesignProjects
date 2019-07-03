@@ -14,7 +14,7 @@ body {
 #header {
   height: var(--header-height);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 1fr;
   position: fixed;
   width: 100%;
   top: 0px;

@@ -40,3 +40,13 @@ a:hover {
   grid-column: 2 / 3;
   text-align: left;
 }
+
+@media screen and (max-width: 400px) {
+  body {
+    --row-gap: 1vh;
+  }
+
+  main {
+    grid-column-gap: 5vw;
+  }
+}

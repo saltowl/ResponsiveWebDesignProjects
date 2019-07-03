@@ -6,6 +6,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: rgb(226, 226, 226);
   height: auto;
+  --content-width: 60vw;
 }
 
 #title {
@@ -24,7 +25,7 @@ h2 {
 }
 
 #img-div {
-  width: 60vw;
+  width: var(--content-width);
   margin: auto;
 }
 
@@ -45,7 +46,7 @@ h2 {
 #tribute-info > p,
 h3 {
   margin: auto;
-  width: 60vw;
+  width: var(--content-width);
   padding: 1vw;
   text-align: justify;
 }
@@ -69,5 +70,11 @@ h3 {
 @keyframes bigger-size {
   100% {
     font-size: larger;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  body {
+    --content-width: 90vw;
   }
 }

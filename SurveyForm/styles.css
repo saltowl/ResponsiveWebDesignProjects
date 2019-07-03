@@ -6,7 +6,7 @@ body {
   background: linear-gradient(90deg, rgb(230, 214, 162), rgb(168, 214, 179), rgb(147, 211, 203));
   margin: 0px;
   height: auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -54,7 +54,20 @@ input[name="submit"] {
   margin-bottom: 0.5vh;
 }
 
-main, input[name="submit"] {
-    border-radius: 3px;
+main,
+input[name="submit"] {
+  border-radius: 3px;
   border: 1px solid rgb(103, 122, 51);
+}
+
+@media screen and (max-width: 950px) {
+  main {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  main {
+    width: 95vw;
+  }
 }

@@ -10,18 +10,28 @@
     <nav id="navbar">
       <header><h1>Basic concepts of flexbox</h1></header>
       <ul>
-        <li><a class="nav-link" href="#twoAxes">The two axes of flexbox</a></li>
-        <li><a class="nav-link" href="#lines">Start and end lines</a></li>
-        <li><a class="nav-link" href="#container">The flex container</a></li>
-        <li><a class="nav-link" href="#wrap">Multi-line flex containers with flex-wrap</a></li>
-        <li><a class="nav-link" href="#flex-flow">The flex-flow shorthand</a></li>
-        <li><a class="nav-link" href="#props">Properties applied to flex items</a></li>
+        <li><a class="nav-link" href="#The_two_axes_of_flexbox">The two axes of flexbox</a></li>
+        <li><a class="nav-link" href="#Start_and_end_lines">Start and end lines</a></li>
+        <li><a class="nav-link" href="#The_flex_container">The flex container</a></li>
         <li>
-          <a class="nav-link" href="#alignment"
+          <a class="nav-link" href="#Multi-line_flex_containers_with_flex-wrap"
+            >Multi-line flex containers with flex-wrap</a
+          >
+        </li>
+        <li><a class="nav-link" href="#The_flex-flow_shorthand">The flex-flow shorthand</a></li>
+        <li>
+          <a class="nav-link" href="#Properties_applied_to_flex_items"
+            >Properties applied to flex items</a
+          >
+        </li>
+        <li>
+          <a
+            class="nav-link"
+            href="#Alignment,_justification_and_distribution_of_free_space_between_items"
             >Alignment, justification and distribution of free space between items</a
           >
         </li>
-        <li><a class="nav-link" href="#refs">Reference</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
       </ul>
     </nav>
 
@@ -37,7 +47,7 @@
         rows together.
       </p>
 
-      <section class="main-section" id="twoAxes">
+      <section class="main-section" id="The_two_axes_of_flexbox">
         <header><h2>The two axes of flexbox</h2></header>
         <p>
           When working with flexbox you need to think in terms of two axes — the main axis and the
@@ -96,7 +106,7 @@
         </p>
       </section>
 
-      <section class="main-section" id="lines">
+      <section class="main-section" id="Start_and_end_lines">
         <header><h2>Start and end lines</h2></header>
         <p>
           Another vital area of understanding is how flexbox makes no assumption about the writing
@@ -138,7 +148,7 @@
         </p>
       </section>
 
-      <section class="main-section" id="container">
+      <section class="main-section" id="The_flex_container">
         <header><h2>The flex container</h2></header>
         <p>
           An area of a document laid out using flexbox is called a <b>flex container</b>. To create
@@ -179,7 +189,7 @@
         </p>
       </section>
 
-      <section class="main-section" id="wrap">
+      <section class="main-section" id="Multi-line_flex_containers_with_flex-wrap">
         <header><h2>Multi-line flex containers with flex-wrap</h2></header>
         <p>
           While flexbox is a one dimensional model, it is possible to cause our flex items to wrap
@@ -192,7 +202,7 @@
           <code>wrap</code>. Now, should your items be too large to all display in one line, they
           will wrap onto another line. The live sample below contains items that have been given a
           width, the total width of the items being too wide for the flex container. As
-          <code>flex-wrap</code> is set to <code>wrap</code>the items wrap. Set it to
+          <code>flex-wrap</code> is set to <code>wrap</code> the items wrap. Set it to
           <code>nowrap</code>, which is also the initial value, and they will instead shrink to fit
           the container because they are using initial flexbox values that allows items to shrink.
           Using <code>nowrap</code> would cause an overflow if the items were not able to shrink, or
@@ -200,7 +210,7 @@
         </p>
       </section>
 
-      <section class="main-section" id="flex-flow">
+      <section class="main-section" id="The_flex-flow_shorthand">
         <header><h2>The flex-flow shorthand</h2></header>
         <p>
           You can combine the two properties <code>flex-direction</code> and
@@ -209,7 +219,7 @@
         </p>
       </section>
 
-      <section class="main-section" id="props">
+      <section class="main-section" id="Properties_applied_to_flex_items">
         <header><h2>Properties applied to flex items</h2></header>
         <p>
           To have more control over flex items we can target them directly. We do this by way of
@@ -355,7 +365,10 @@
         </p>
       </section>
 
-      <section class="main-section" id="alignment">
+      <section
+        class="main-section"
+        id="Alignment,_justification_and_distribution_of_free_space_between_items"
+      >
         <header>
           <h2>Alignment, justification and distribution of free space between items</h2>
         </header>
@@ -405,7 +418,7 @@
         </p>
       </section>
 
-      <section class="main-section" id="refs">
+      <section class="main-section" id="Reference">
         <header><h2>Reference</h2></header>
         <p>
           All the documentation in this page is taken from
@@ -416,5 +429,7 @@
         </p>
       </section>
     </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>

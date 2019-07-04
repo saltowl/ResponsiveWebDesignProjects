@@ -49,8 +49,13 @@ h1 {
   font-size: 1.1em;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+a:hover {
   font-weight: 500;
+}
+
+a > code:hover {
+  font-size: larger;
 }
 
 #navbar > ul > li,
@@ -91,4 +96,8 @@ code {
 
 h2 {
   text-align: center;
+}
+
+a {
+  color: black;
 }

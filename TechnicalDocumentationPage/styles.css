@@ -6,7 +6,7 @@ body {
   margin: 0px;
   height: auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  --navbar-width: 300px;
+  --navbar-width: 320px;
   --padding: 30px;
   word-wrap: break-word;
 }
@@ -51,7 +51,7 @@ h1 {
 
 .nav-link:hover,
 a:hover {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 a > code:hover {
@@ -60,7 +60,6 @@ a > code:hover {
 
 #navbar > ul > li,
 h1 {
-  vertical-align: center;
   padding-bottom: 13px;
 }
 

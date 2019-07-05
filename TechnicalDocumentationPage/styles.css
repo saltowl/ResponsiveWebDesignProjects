@@ -88,11 +88,11 @@ img {
 }
 
 blockquote {
-    background-color: rgb(219, 219, 219);
-    font-style: italic;
-    margin: 0px;
-    border-left: 5px solid grey;
-    padding: 10px;
+  background-color: rgb(219, 219, 219);
+  font-style: italic;
+  margin: 0px;
+  border-left: 5px solid grey;
+  padding: 10px;
 }
 
 code {
@@ -108,4 +108,29 @@ h2 {
 
 a {
   color: black;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    --navbar-height: 300px;
+    --padding: 15px;
+  }
+  #navbar {
+    height: var(--navbar-height);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+
+  #navbar > ul {
+    overflow-y: scroll;
+    border-bottom: 3px solid grey;
+  }
+
+  #main-doc {
+    margin-left: 0px;
+    position: relative;
+    border-left: none;
+    top: var(--navbar-height);
+  }
 }

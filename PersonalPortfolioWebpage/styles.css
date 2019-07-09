@@ -179,3 +179,18 @@ footer {
   font-weight: 600;
   color: #ffd6aa;
 }
+
+@media screen and (max-width: 600px) {
+  #projects > h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .project-tile {
+    padding: 3px;
+    flex: 1 0 100%;
+    min-height: 50px;
+    min-width: 50px;
+  }
+}

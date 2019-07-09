@@ -16,8 +16,6 @@ main {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   grid-template-columns: repeat(2, 1fr);
-  grid-row-gap: var(--row-gap);
-  grid-column-gap: 8vh;
   max-width: 600px;
   margin: auto;
 }
@@ -34,11 +32,19 @@ a:hover {
 .prj {
   grid-column: 1 / 2;
   text-align: right;
+  padding-right: 4vh;
+  border-right: 1px dashed black;
 }
 
 .org {
   grid-column: 2 / 3;
   text-align: left;
+  padding-left: 4vh;
+}
+
+.prj,
+.org {
+  border-bottom: 1px dashed black;
 }
 
 @media screen and (max-width: 400px) {
@@ -46,7 +52,11 @@ a:hover {
     --row-gap: 1vh;
   }
 
-  main {
-    grid-column-gap: 5vw;
+  .prj {
+    padding-right: 2vh;
+  }
+
+  .org {
+    padding-left: 2vh;
   }
 }
